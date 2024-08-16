@@ -1,0 +1,233 @@
+/* navbar css */
+.nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.navbar-brand{
+    color: black;
+    font-size: 22px ;
+    font-weight: 700;
+    line-height: 26px;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+   
+}
+.about2-img{
+    margin: 0 68px;
+}
+.about-img{
+    margin-top: 70px;
+}
+.about-img img{
+    width: 100%;
+}
+.container-fluid{
+    margin: 0 68px;
+}
+.container-fluid2{
+    margin: 0 68px;
+}
+.about-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-text h2{
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+/* product-4 */
+.product-4{
+    margin-top: 150px;
+}
+.product-4 h4{
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+.product-4 p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 14px;
+    
+}
+.middle-img{
+    margin-top: 50px;
+}
+.middle-img img{
+    width: 100%;
+}
+
+/* meet perfecton */
+.perfection{
+    padding-top: 90px;
+ }
+ .perfection h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    padding-bottom: 24px;
+ }
+ .perfection p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #898989;
+ }
+ .perfection h4{
+    font-size: 28px;
+    font-weight: 700;
+    
+ }
+ .perfection span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #353535;
+ }
+ .function-content{
+    padding-bottom: 15px;
+ }
+ .func-top{
+    margin-top: 48px;
+    margin-bottom: 38px;
+ }
+ .progress-bar{
+    background-color: #353535;
+ }
+ /* blog post */
+.blog-post{
+    padding-top: 134px;
+    padding-bottom: 82px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+ }
+ .blog-post h4{
+    font-size: 30px;
+    font-weight: 700;
+ 
+ }
+ .blog-txt{
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+ }
+ .blog-txt span{
+    font-size: 19px;
+    font-weight: 400;
+    color: #898989;
+   
+ }
+ .blog-txt h5{
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 16px;
+ }
+ .blog-txt a{
+    font-size: 19px;
+    font-weight: 400;
+    color: #303030;
+ }
+ .row-card{
+    min-width: 100%;
+ }
+ .blog-card{
+    min-width: 420px;
+ }
+ 
+/* footer section */
+footer{
+    background-color: #2B2B2B;
+    margin-top: 50px;
+  
+}
+footer h1{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 37px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+footer h4{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 30px;
+}
+ul{
+    margin-left: 0;
+    padding-inline-start: 0;
+}
+footer ul li{
+    list-style: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #ABABAB;
+    margin-bottom: 1rem;
+}
+
+footer span{
+    color: #ABABAB;
+    font-size: 22px;
+    font-weight: 400;
+}
+.p-tag{
+    width: 280px;
+    color:#ABABAB;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+}
+footer p{
+    color:#ABABAB;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.footer-p{
+  margin-bottom: 0;
+}
+
+@media (max-width:767px) {
+    .about-img{
+        width: auto;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    .product-4{
+        margin-top: 40px;
+    }
+    .perfection{
+        margin-top: 10px;
+    }
+    .perfection h3{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .middle-img{
+        margin-top: 20px;
+    }
+    .container-fluid2{
+        margin: 0 40px;
+    }
+    .container-fluid{
+        margin: 0 40px;
+    }
+}
